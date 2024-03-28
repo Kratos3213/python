@@ -1,7 +1,7 @@
 import random
 random.randint(1,100)
 print("Welcome to guess the number game")
-Level = 0
+
 print("Level 0")
 n = random.randint(1,100)
 i = 10
@@ -22,9 +22,7 @@ while i > 0:
     if i == 0:
         print("you lose")
         break
-    if "Level 0"== 0:
-        print("you lose")
-        break
+   
 
 
 print("Level 1")
